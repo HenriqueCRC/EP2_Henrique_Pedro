@@ -36,7 +36,7 @@ print(gera_ajuda({
 
 def questao_para_texto(dic,ID):
     string = ''
-    primeira_linha = ('QUESTÃO {0}'.format(ID))
+    primeira_linha = ('\033[34mQUESTÃO {0}\033[m'.format(ID))
     titulo = dic["titulo"]
     respostas = dic["opcoes"]
     string_final = ''
