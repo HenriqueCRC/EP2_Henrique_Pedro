@@ -156,5 +156,40 @@ quest = [{'titulo': 'Qual o resultado da operação 57 + 32?',
          {'titulo': 'O que é Necrose?',
           'nivel': 'dificil',
           'opcoes': {'A': 'Uma banda de Rock', 'B': 'Uma marca de luxo', 'C': 'Cidade Francesa', 'D': 'Morte de tecido orgânico'},
+          'correta': 'D'},
+
+         {'titulo': 'Qual foi a cede da copa do mundo de 2010?',
+          'nivel': 'dificil',
+          'opcoes': {'A': 'França', 'B': 'Italia', 'C': 'Alemanha', 'D': 'africa do Sul'},
+          'correta': 'D'},
+
+         {'titulo': 'Qual o ano marcou a chegada dos portugueses ao Brasil?',
+          'nivel': 'medio',
+          'opcoes': {'A': '1450', 'B': '1400', 'C': '1500', 'D': '1520'},
+          'correta': 'C'},
+
+         {'titulo': 'Qual foi a crise economica que ficou conhecida como A Grande Depresão?',
+          'nivel': 'medio',
+          'opcoes': {'A': 'Crise de 29', 'B': 'Crise de 2008', 'C': 'Crise brasileira de 2014', 'D': 'Crise de 1997'},
+          'correta': 'A'},
+
+         {'titulo': 'Qual a empresa mais valiosa do mundo?',
+          'nivel': 'facil',
+          'opcoes': {'A': 'Amazon', 'B': 'Apple', 'C': 'Microsoft', 'D': 'Google'},
+          'correta': 'B'},
+         
+         {'titulo': 'Quantas bolas de ouro o Messi tem?',
+          'nivel': 'facil',
+          'opcoes': {'A': '5', 'B': '7', 'C': '6', 'D': '3'},
+          'correta': 'B'},
+
+         {'titulo': 'Qual o time de futebol com mais títulos de Brasileirão?',
+          'nivel': 'medio',
+          'opcoes': {'A': 'Palmeiras', 'B': 'Flamengo', 'C': 'São Paulo', 'D': 'Chapecoense'},
+          'correta': 'A'},
+
+         {'titulo': 'Qual o maior investidor da bolsa de valores mundial?',
+          'nivel': 'medio',
+          'opcoes': {'A': 'Rey Dalio', 'B': 'George Soros', 'C': 'Lírio Parisotto', 'D': 'Warren Buffett'},
           'correta': 'D'}
         ]
