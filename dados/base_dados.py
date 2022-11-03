@@ -13,6 +13,16 @@ quest = [{'titulo': 'Qual o resultado da operação 57 + 32?',
           'opcoes': {'A': '21 de Abril', 'B': '12 de Outubro', 'C': '07 de Setembro', 'D': '15 de Novembro'},
           'correta': 'C'},
 
+         {'titulo': 'Quantas bolas de ouro o Messi tem?',
+          'nivel': 'facil',
+          'opcoes': {'A': '5', 'B': '7', 'C': '6', 'D': '3'},
+          'correta': 'B'},
+
+         {'titulo': 'Qual a empresa mais valiosa do mundo?',
+          'nivel': 'facil',
+          'opcoes': {'A': 'Amazon', 'B': 'Apple', 'C': 'Microsoft', 'D': 'Google'},
+          'correta': 'B'},
+
          {'titulo': '_________ é um conjunto de particularidades que caracterizam um grupo de pessoas, uma família ou uma sociedade. É formada por princípios morais, hábitos, costumes, histórias, manifestações religiosas, entre outros. Qual palavra melhor completa o início da frase?',
           'nivel': 'facil',
           'opcoes': {'A': 'Missão', 'B': 'Cultura', 'C': 'Curso superior', 'D': 'Culinária'},
@@ -98,6 +108,16 @@ quest = [{'titulo': 'Qual o resultado da operação 57 + 32?',
           'opcoes': {'A': 'Ligue 101', 'B': 'Ligue 192', 'C': 'Ligue 109', 'D': 'Ligue 122'},
           'correta': 'B'},
 
+         {'titulo': 'Qual foi a crise economica que ficou conhecida como A Grande Depresão?',
+          'nivel': 'medio',
+          'opcoes': {'A': 'Crise de 29', 'B': 'Crise de 2008', 'C': 'Crise brasileira de 2014', 'D': 'Crise de 1997'},
+          'correta': 'A'},
+
+         {'titulo': 'Qual o ano marcou a chegada dos portugueses ao Brasil?',
+          'nivel': 'medio',
+          'opcoes': {'A': '1450', 'B': '1400', 'C': '1500', 'D': '1520'},
+          'correta': 'C'},
+
          {'titulo': 'Qual a segunda pessoa mais seguida no Instagram?',
           'nivel': 'medio',
           'opcoes': {'A': 'Cristiano Ronaldo', 'B': 'Dwayne Johnson', 'C': 'Kim Kardashian', 'D': 'Kylie Jenner'},
@@ -106,6 +126,16 @@ quest = [{'titulo': 'Qual o resultado da operação 57 + 32?',
          {'titulo': 'Qual a pessoa mais seguida no Instagram?',
           'nivel': 'medio',
           'opcoes': {'A': 'Cristiano Ronaldo', 'B': 'Dwayne Johnson', 'C': 'Kim Kardashian', 'D': 'Lionel Messi'},
+          'correta': 'A'},
+         
+         {'titulo': 'Qual o maior investidor da bolsa de valores mundial?',
+          'nivel': 'medio',
+          'opcoes': {'A': 'Rey Dalio', 'B': 'George Soros', 'C': 'Lírio Parisotto', 'D': 'Warren Buffett'},
+          'correta': 'D'},
+
+         {'titulo': 'Qual o time de futebol com mais títulos de Brasileirão?',
+          'nivel': 'medio',
+          'opcoes': {'A': 'Palmeiras', 'B': 'Flamengo', 'C': 'São Paulo', 'D': 'Chapecoense'},
           'correta': 'A'},
 
          {'titulo': 'A reprodução dos seres vivos é um processo biológico através do qual os organismos geram descendência. Qual desta não é uma forma de reprodução assexuada?',
@@ -162,34 +192,4 @@ quest = [{'titulo': 'Qual o resultado da operação 57 + 32?',
           'nivel': 'dificil',
           'opcoes': {'A': 'França', 'B': 'Italia', 'C': 'Alemanha', 'D': 'africa do Sul'},
           'correta': 'D'},
-
-         {'titulo': 'Qual o ano marcou a chegada dos portugueses ao Brasil?',
-          'nivel': 'medio',
-          'opcoes': {'A': '1450', 'B': '1400', 'C': '1500', 'D': '1520'},
-          'correta': 'C'},
-
-         {'titulo': 'Qual foi a crise economica que ficou conhecida como A Grande Depresão?',
-          'nivel': 'medio',
-          'opcoes': {'A': 'Crise de 29', 'B': 'Crise de 2008', 'C': 'Crise brasileira de 2014', 'D': 'Crise de 1997'},
-          'correta': 'A'},
-
-         {'titulo': 'Qual a empresa mais valiosa do mundo?',
-          'nivel': 'facil',
-          'opcoes': {'A': 'Amazon', 'B': 'Apple', 'C': 'Microsoft', 'D': 'Google'},
-          'correta': 'B'},
-         
-         {'titulo': 'Quantas bolas de ouro o Messi tem?',
-          'nivel': 'facil',
-          'opcoes': {'A': '5', 'B': '7', 'C': '6', 'D': '3'},
-          'correta': 'B'},
-
-         {'titulo': 'Qual o time de futebol com mais títulos de Brasileirão?',
-          'nivel': 'medio',
-          'opcoes': {'A': 'Palmeiras', 'B': 'Flamengo', 'C': 'São Paulo', 'D': 'Chapecoense'},
-          'correta': 'A'},
-
-         {'titulo': 'Qual o maior investidor da bolsa de valores mundial?',
-          'nivel': 'medio',
-          'opcoes': {'A': 'Rey Dalio', 'B': 'George Soros', 'C': 'Lírio Parisotto', 'D': 'Warren Buffett'},
-          'correta': 'D'}
         ]
