@@ -2,8 +2,6 @@ import random
 from dados import base_dados
 from funcoes import base_fun
 
-p = True
-
 lista_dados_nova=[]
 
 for questao in base_dados.quest:
@@ -12,25 +10,26 @@ for questao in base_dados.quest:
         lista_dados_nova.append(questao)
 
 # Transforma base de questões
-while p == True :
-    dados_novo = base_fun.transforma_base(lista_dados_nova)
+dados_novo = base_fun.transforma_base(lista_dados_nova)
 
-    rodar_questao = True
-    lista_ja_sorteadas = []
-    ja = 0
-    dinheiro = 0
-    pulos = 3
-    ajuda = 2
-    n = 1
-    lista_ajuda = []
-    lista_dificuldade = ['facil','facil','facil','medio','medio','medio', 'dificil','dificil','dificil']
-    i = 0
-    lista_premio = [1000,5000,10000,30000,50000,100000,300000,500000,1000000]
-    lista_quant_respostas = []
-    lista_alternativas = ['A','B','C','D','AJUDA','PULA','PARAR']
-    continuar = True
+rodar_questao = True
+lista_ja_sorteadas = []
+ja = 0
+dinheiro = 0
+pulos = 3
+ajuda = 2
+n = 1
+lista_ajuda = []
+lista_dificuldade = ['facil','facil','facil','medio','medio','medio', 'dificil','dificil','dificil']
+i = 0
+lista_premio = [1000,5000,10000,30000,50000,100000,300000,500000,1000000]
+lista_quant_respostas = []
+lista_alternativas = ['A','B','C','D','AJUDA','PULA','PARAR']
+continuar = True
 
-    # Início do jogo
+# Início do jogo
+roda='S'
+while roda=='S':
 
     print('Olá! Você está na Fortuna DesSoft e terá a oportunidade de enriquecer!')
 
@@ -109,11 +108,9 @@ while p == True :
             passar = input('Aperte ENTER para continuar...')
         elif resposta != correta:
             print('Que pena! Você errou e vai continuar pobre')
-            repetir = print('Deseja jogar denovo ? (digite S ou N)')
-        
-        elif repetir == 'S' :
-            p = True
-        elif repetir == 'N' :
-            p = False 
-    
+            print(f'Você conseguiu acumular R${dinheiro}')
+            break
+    roda=str(input('Deseja jogar novamente? [S/N]')).upper()
+print('Obrigado por jogar e até a próxima Loser')
+
 
