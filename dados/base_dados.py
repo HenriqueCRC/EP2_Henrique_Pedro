@@ -3,6 +3,21 @@ quest = [{'titulo': 'Qual o resultado da operação 57 + 32?',
           'opcoes': {'A': '-19', 'B': '85', 'C': '89', 'D': '99'},
           'correta': 'C'},
 
+         {'titulo': 'Quantos litros de água uma pessoa deve beber em média por dia ?',
+          'nivel': 'facil',
+          'opcoes': {'A': '2', 'B': '4', 'C': '1', 'D': '3'},
+          'correta': 'A'},
+
+         {'titulo': 'Qual o resultado da operação 50 - 25 - 30 + 5',
+          'nivel': 'facil',
+          'opcoes': {'A': '5', 'B': '10', 'C': '15', 'D': '0'},
+          'correta': 'D'},
+
+         {'titulo': 'Qual a capital do estado de Goiás ?',
+          'nivel': 'facil',
+          'opcoes': {'A': 'Anapolis', 'B': 'Goiatuba', 'C': 'Goiânia', 'D': 'Goiás Velho'},
+          'correta': 'C'},
+
          {'titulo': 'Qual a capital do Brasil?',
           'nivel': 'facil',
           'opcoes': {'A': 'Brasília', 'B': 'Rio de janeiro', 'C': 'São Paulo', 'D': 'Osasco'},
@@ -133,6 +148,21 @@ quest = [{'titulo': 'Qual o resultado da operação 57 + 32?',
           'opcoes': {'A': 'Rey Dalio', 'B': 'George Soros', 'C': 'Lírio Parisotto', 'D': 'Warren Buffett'},
           'correta': 'D'},
 
+         {'titulo': 'Qual país é o maior exportador de soja do mundo ?',
+          'nivel': 'medio',
+          'opcoes': {'A': 'Estados Unidos', 'B': 'Brasil', 'C': 'China', 'D': 'Argentina'},
+          'correta': 'B'},
+
+         {'titulo': 'Qual op homem mais rico do mundo ?',
+          'nivel': 'medio',
+          'opcoes': {'A': 'Elon Musk', 'B': '	Jeff Bezos', 'C': '	Bernard Arnault', 'D': '	Bill Gates'},
+          'correta': 'A'},
+
+         {'titulo': 'Qual país é o maior produtor de carne do mundo ?',
+          'nivel': 'medio',
+          'opcoes': {'A': 'Estados Unidos', 'B': 'Brasil', 'C': 'Argentina', 'D': 'Uruguai'},
+          'correta': 'B'},
+
          {'titulo': 'Qual o time de futebol com mais títulos de Brasileirão?',
           'nivel': 'medio',
           'opcoes': {'A': 'Palmeiras', 'B': 'Flamengo', 'C': 'São Paulo', 'D': 'Chapecoense'},
@@ -192,4 +222,20 @@ quest = [{'titulo': 'Qual o resultado da operação 57 + 32?',
           'nivel': 'dificil',
           'opcoes': {'A': 'França', 'B': 'Italia', 'C': 'Alemanha', 'D': 'africa do Sul'},
           'correta': 'D'},
+
+         {'titulo': 'Qual o animal mais perigoso do mundo?',
+          'nivel': 'dificil',
+          'opcoes': {'A': 'Serpente', 'B': 'Peixe Leão', 'C': 'Vespa do mar', 'D': 'Tubarão'},
+          'correta': 'C'}, 
+
+         {'titulo': 'Qual o filme com maior bilheteria da história ?',
+          'nivel': 'dificil',
+          'opcoes': {'A': 'Titanic', 'B': 'Guerra infinita', 'C': 'Avatar', 'D': '	Star Wars: The Force Awakens'},
+          'correta': 'C'},
+
+         {'titulo': 'Quantos alunos tem no Insper aproximadamente ?',
+          'nivel': 'dificil',
+          'opcoes': {'A': '5000', 'B': '7000', 'C': '10000', 'D': '15000'},
+          'correta': 'C'}
+
         ]
